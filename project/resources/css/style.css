@@ -185,3 +185,64 @@ header .header-text h1 {
   color: #555;
   font-size: 18px;
   font-weight: 100; }
+
+.section-products {
+  padding-top: 100px; }
+.section-products ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%; }
+.section-products ul li {
+  width: 25%;
+  float: left;
+  overflow: hidden;
+  background-color: #000; }
+.section-products ul li img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transform: scale(1.15);
+  opacity: 0.7; }
+.section-products ul li img:hover {
+  opacity: 1;
+  transform: scale(1);
+  transition: 1.5s; }
+
+.section-contacts {
+  padding-top: 20px;
+  text-align: center; }
+.section-contacts h2 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 100;
+  border-bottom: 1px solid #e67e22; }
+.section-contacts .contacts {
+  padding: 40px 0;
+  list-style: none;
+  width: 100%; }
+.section-contacts .contacts .left {
+  float: left;
+  width: 20%; }
+.section-contacts .contacts .right {
+  width: 70%;
+  float: left;
+  text-align: left;
+  line-height: 30px; }
+.section-contacts .contacts li {
+  width: 33.3%;
+  float: left;
+  text-align: center; }
+.section-contacts .contacts li img {
+  width: 100%;
+  max-width: 30px;
+  height: auto; }
+.section-contacts .contacts li a {
+  font-size: 20px;
+  color: #555;
+  text-decoration: none; }
+
+.map {
+  width: 100%;
+  min-height: 500px; }

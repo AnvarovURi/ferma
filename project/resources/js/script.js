@@ -14,3 +14,20 @@ $(document).ready(function () {
     
 
 })
+
+/*--map--*/
+
+var map = new GMaps ({
+    div: '.map',
+    lat: 42.876064,
+    lng: 74.588466
+});
+
+map.addMarker({
+    lat: 42.876064,
+    lng: 74.588466,
+    title: 'ОАО "АК-СУУ"',
+    infoWindow: {
+        content: '<p>ОАО "АК-СУУ"</p>'
+    }
+})
