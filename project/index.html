@@ -5,11 +5,22 @@
     <title>ferma</title>
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/queries.css">
+    <link rel="stylesheet" href="resources/css/animate.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/vendors/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/vendors/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/vendors/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/vendors/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/vendors/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/vendors/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/vendors/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     
     
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="container clearfix">
            <div class="top-header clearfix">
                <div class="logo">
@@ -38,27 +49,27 @@
         
         <h2>О нас</h2>
         
-        <div class="section-items">
+        <div class="section-items " >
             
-            <div class="item">
+            <div class="item js--wp-1" >
                 <img src="resources/img/medicine-case.png" alt="case">
                 <h3>Ветеринарный контроль</h3>
                 <p>Соблюдение надлежащих ветеринарных и санитарных условий.</p>
             </div>
             
-            <div class="item">
+            <div class="item js--wp-1">
                 <img src="resources/img/flash.png" alt="flash">
                 <h3>Eco-продукт</h3>
                 <p>Птица получает только натуральный и сбалансированный корм из экологически чистого сырья, собственного и импортного производства.</p>
             </div>
             
-            <div class="item">
+            <div class="item js--wp-1">
                 <img src="resources/img/leaf.png" alt="leaf">
                 <h3>Более полувека на рынке</h3>
                 <p>Птицефабрика была основана в 1966, в состав которой входили и входят лучшие технологи со времен СССР</p>
             </div>
             
-            <div class="item">
+            <div class="item js--wp-1">
                 <img src="resources/img/smile.png" alt="smile">
                 <h3>1000+ довольных клиентов</h3>
                 <p>Традиции, рецепты и качество пронесенные сквозь года.</p>
@@ -88,10 +99,13 @@
     </section>
     
     
+
     <section class="section-step">
+        <div class="conteiner">
+            <h2> Как заказать? </h2>
+        </div>
         
-        <h2> Как заказать? </h2>
-        
+        <div class="conteiner">
         <div class="phone">
             <img src="resources/img/applephone.png" alt="akkuu-phone">
         </div>
@@ -113,6 +127,7 @@
                 <div class="4">4</div>
                 <p>Заполните "Форму Заказа" и мы с Вами свяжемся!</p>
             </div>
+        </div>
         </div>
         
     </section>
@@ -159,7 +174,11 @@
         
     </div>
     
+    <a href="#header" class="btn-up btn-up-active">
+        <i class="ion-arrow-up-c"></i>
+    </a>
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="http://maps.google.com/maps/api/js?key=AIzaSyC9rhM3w3BWTNT8feMkFiMFSGUxZCLF4C0"></script>
     <script src="vendors/js/gmaps.js"></script>
     <script src="resources/js/script.js"></script>

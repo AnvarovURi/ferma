@@ -13,7 +13,7 @@ $(document).ready(function () {
     });
     
 
-})
+
 
 /*--map--*/
 
@@ -30,4 +30,14 @@ map.addMarker({
     infoWindow: {
         content: '<p>ОАО "АК-СУУ"</p>'
     }
+})
+
+ $('.js--wp-1').waypoint(function(direction) {
+        $('.js--wp-1').addClass('animated fadeIn');
+    }, {
+        offset: '50%'
+    });
+    
+    
+    
 })
