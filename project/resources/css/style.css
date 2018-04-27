@@ -234,7 +234,8 @@ header .header-text h1 {
   transition: 1.5s; }
 
 .section-step {
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+  height: 600px; }
 .section-step h2 {
   text-transform: uppercase;
   font-weight: 300;
@@ -243,12 +244,19 @@ header .header-text h1 {
   text-align: center;
   margin-bottom: 30px;
   letter-spacing: 1px; }
-
 .section-step .phone {
-  width: 50%; }
+  display: inline-block;
+  width: 50%;
+  float: left; }
 .section-step .phone img {
-  width: 27%; }
+  display: inline-block;
+  padding-left: 250px;
+  width: 70%; }
 .section-step .order-step {
+  display: inline-block;
+  width: 50%;
+  float: right; }
+.section-step .order-step .step div {
   color: #e67e22;
   font-size: 150%;
   height: 54px;
@@ -258,11 +266,14 @@ header .header-text h1 {
   display: inline-block;
   text-align: center;
   margin-right: 25px;
-  float: left;
   padding: 5px; }
+.section-step .order-step .step p {
+  color: #555;
+  font-weight: 400;
+  font-size: 15px; }
 
 .section-contacts {
-  padding-top: 20px;
+  padding-top: 50px;
   text-align: center; }
 .section-contacts h2 {
   display: inline-block;
@@ -298,3 +309,41 @@ header .header-text h1 {
 .map {
   width: 100%;
   min-height: 500px; }
+
+footer {
+  padding: 50px 0;
+  color: #fff;
+  background-color: #242323;
+  font-size: 80%; }
+footer .footer-item {
+  float: left;
+  width: 30%;
+  padding-left: 3%; }
+footer .footer-item img {
+  width: 60%;
+  height: auto;
+  margin-top: 30px; }
+footer .footer-courses {
+  padding-top: 20px; }
+footer .footer-courses ul {
+  list-style: none;
+  margin-top: 15px; }
+footer .footer-courses ul li {
+  padding: 5px 0; }
+footer .footer-courses ul li a {
+  font-size: 110%;
+  color: #fff; }
+footer .footer-social ul {
+  list-style: none;
+  margin-top: 20px; }
+footer .footer-social ul .footer-social .social-links li {
+  display: inline-block;
+  margin: 0 10px; }
+footer .footer-social .info {
+  margin-top: 20px; }
+footer .footer-social .info li {
+  font-size: 120%;
+  margin: 5px 0; }
+footer .footer-social .info li a {
+  text-decoration: none;
+  color: #fff; }
